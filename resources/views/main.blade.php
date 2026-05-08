@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="flex justify-center">
+    <section class="flex justify-center" id="Home">
         <div class="flex flex-col items-center w-300 h-110 px-25 py-18 bg-gray-800 text-white border-3 border-yellow-200 rounded-2xl shadow-lg shadow-yellow-500">
             <img src="/build/assets/img/ame.jpg" alt="Gura pfp" class="center w-42 h-42 rounded-full">
             <h1 class="text-3xl">Hello Im cake...👋</h1>
@@ -17,7 +17,7 @@
         </div> 
     </section>  
     <!-- This if for my skill cards -->
-    <section class="py-5">
+    <section class="py-5" id="Skills">
         <div class="flex justify-center">
             <h1 class="text-white font-bold text-3xl w-50 h-15 py-2 text-center border-2 bg-gray-800 border-yellow-300 rounded-full m-5 shadow-lg shadow-yellow-500">
                 SKILLS
