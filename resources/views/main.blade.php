@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <!-- This is for title card -->
     <section class="flex justify-center" id="Home">
         <div class="flex flex-col items-center w-300 h-110 px-25 py-18 bg-gray-800 text-white border-3 border-yellow-200 rounded-2xl shadow-lg shadow-yellow-500">
             <img src="/build/assets/img/ame.jpg" alt="Gura pfp" class="center w-42 h-42 rounded-full">
@@ -19,7 +20,7 @@
     <!-- This if for my skill cards -->
     <section class="py-5" id="Skills">
         <div class="flex justify-center">
-            <h1 class="text-white font-bold text-3xl w-50 h-15 py-2 text-center border-2 bg-gray-800 border-yellow-300 rounded-full m-5 shadow-lg shadow-yellow-500">
+            <h1 class="text-white font-bold text-3xl w-50 h-15 py-2 text-center border-2 bg-gray-800 border-emerald-500 rounded-full m-5 shadow-lg shadow-emerald-500">
                 SKILLS
             </h1>
         </div>
@@ -41,6 +42,34 @@
                     <img src="/build/assets/svg/pytorch-svgrepo-com.svg" class="w-30 h-30">
                     <img src="/build/assets/svg/statsmodels-logo-v2.svg" class="w-30 h-30">
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex justify-center">
+                <h1 class="text-white font-bold text-3xl w-60 h-15 py-2 text-center border-2 bg-gray-800 border-red-700 rounded-full m-5 shadow-xl shadow-red-700/50">
+                    EXPRERIENCE
+                </h1>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="border border-3 border-red-700 w-300 h-110 px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex justify-center">
+                <h1 class="text-white font-bold text-3xl w-60 h-15 py-2 text-center border-2 bg-gray-800 border-blue-500 rounded-full m-5 shadow-xl shadow-blue-500/50">
+                    PROJECTS
+                </h1>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="border border-3 border-blue-700 w-300 h-110 px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
+                
             </div>
         </div>
     </section>
