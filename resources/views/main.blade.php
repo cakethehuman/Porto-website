@@ -24,8 +24,16 @@
                 SKILLS
             </h1>
         </div>
-        <div class="flex flex-row gap-20 w-full max-w-7xl">
-            <div class="flex-col border items-center max-w-2xl w-full h-90 bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
+        <div class="flex justify-center gap-65">
+            <h1 class="text-white font-bold text-3xl w-100 h-15 py-2 text-center border-2 bg-gray-800 border-emerald-500 rounded-full m-5 shadow-lg shadow-emerald-500">
+                MACHINE LEARNING
+            </h1>
+            <h1 class="text-white font-bold text-3xl w-100 h-15 py-2 text-center border-2 bg-gray-800 border-emerald-500 rounded-full m-5 shadow-lg shadow-emerald-500">
+                WEB DEV
+            </h1>
+        </div>
+        <div class="flex flex-row gap-30 w-full max-w-7xl">
+            <div class="flex-col border items-center max-w-2xl w-full h-auto bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
                 <div class="grid grid-cols-3 gap-5 my-15 place-items-center">
                     <img src="/build/assets/svg/scikit-learn.svg" class="w-25 h-25 object-contain">
                     <img src="/build/assets/svg/tensorflow-svgrepo-com.svg" class="w-25 h-25 object-contain">
@@ -35,12 +43,14 @@
                     <img src="/build/assets/svg/tableau-icon-svgrepo-com.svg" class="w-25 h-25 object-contain">
                 </div>
             </div>
-            <div class="flex-col border items-center w-140 h-90 bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
+            <div class="flex-col border items-center max-w-2xl w-full h-auto bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
                 <div class="grid grid-cols-3 gap-5 my-15 place-items-center">
-                    <img src="/build/assets/svg/scikit-learn.svg" class="w-30 h-30">
-                    <img src="/build/assets/svg/tensorflow-svgrepo-com.svg" class="w-30 h-30">
-                    <img src="/build/assets/svg/pytorch-svgrepo-com.svg" class="w-30 h-30">
-                    <img src="/build/assets/svg/statsmodels-logo-v2.svg" class="w-30 h-30">
+                    <img src="/build/assets/svg/FastApi.svg" class="w-25 h-25 object-containo-com">
+                    <img src="/build/assets/svg/js-official-svgrepo-com.svg" class="w-25 h-25 object-containo-com">
+                    <img src="/build/assets/svg/mongo-svgrepo-com.svg" class="w-25 h-25 object-containo-com">
+                    <img src="/build/assets/svg/mysql-logo-svgrepo-com.svg" class="w-25 h-25 object-containo-com">
+                    <img src="/build/assets/svg/tailwind-svgrepo-com.svg" class="w-25 h-25 object-containo-com">
+                    <img src="/build/assets/svg/laravel-svgrepo-com.svg" class="w-25 h-25 object-containo-com">
                 </div>
             </div>
         </div>
@@ -55,12 +65,19 @@
         </div>
         <div class="flex justify-center">
             <div class="border border-3 border-red-700 max-w-7xl w-full h-auto px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
-                <div class="flex flex-col">
+                <div class="flex flex-col gap-10">
                     <div class="flex flex-row gap-10">
                         <img src="/build/assets/img/shoushin logo.png" class="w-23 h-25">
                         <div class="flex flex-col">
                             <h1 class="text-white text-3xl">Seketaris 2</h1>
-                            <h1 class="text-white text-3xl">I was doing stuff</h1>
+                            <p class="text-white text-md">Nov 2025 - Now</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row gap-10">
+                        <img src="/build/assets/img/discord logo.png" class="w-23 h-25">
+                        <div class="flex flex-col"> 
+                            <h1 class="text-white text-3xl">Seketaris 2</h1>
+                            <p class="text-white text-md">Nov 2024 - Feb 2025</p>
                         </div>
                     </div>
                 </div>
