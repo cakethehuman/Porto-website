@@ -3,7 +3,7 @@
 @section('content')
     <!-- This is for title card -->
     <section class="flex justify-center" id="Home">
-        <div class="flex flex-col items-center w-300 h-110 px-25 py-18 bg-gray-800 text-white border-3 border-yellow-200 rounded-2xl shadow-lg shadow-yellow-500">
+        <div class="flex flex-col items-center max-w-7xl w-full h-auto px-25 py-18 bg-gray-800 text-white border-3 border-yellow-200 rounded-2xl shadow-lg shadow-yellow-500">
             <img src="/build/assets/img/ame.jpg" alt="Gura pfp" class="center w-42 h-42 rounded-full">
             <h1 class="text-3xl">Hello Im cake...👋</h1>
             <h1 class="text-xl m-1">Data Nerd</h1>
@@ -24,15 +24,15 @@
                 SKILLS
             </h1>
         </div>
-        <div class="flex flex-row gap-20">
-            <div class="flex-col border items-center w-140 h-90 bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
+        <div class="flex flex-row gap-20 w-full max-w-7xl">
+            <div class="flex-col border items-center max-w-2xl w-full h-90 bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
                 <div class="grid grid-cols-3 gap-5 my-15 place-items-center">
-                    <img src="/build/assets/svg/scikit-learn.svg" class="w-25 h-25">
-                    <img src="/build/assets/svg/tensorflow-svgrepo-com.svg" class="w-25 h-25">
-                    <img src="/build/assets/svg/pytorch-svgrepo-com.svg" class="w-25 h-25">
-                    <img src="/build/assets/svg/statsmodels-logo-v2.svg" class="w-25 h-25">
-                    <img src="/build/assets/svg/opencv-svgrepo-com.svg" class="w-25 h-25">
-                    <img src="/build/assets/svg/tableau-icon-svgrepo-com.svg" class="w-25 h-25">
+                    <img src="/build/assets/svg/scikit-learn.svg" class="w-25 h-25 object-contain">
+                    <img src="/build/assets/svg/tensorflow-svgrepo-com.svg" class="w-25 h-25 object-contain">
+                    <img src="/build/assets/svg/pytorch-svgrepo-com.svg" class="w-25 h-25 object-contain">
+                    <img src="/build/assets/svg/statsmodels-logo-v2.svg" class="w-25 h-25 object-contain">
+                    <img src="/build/assets/svg/opencv-svgrepo-com.svg" class="w-25 h-25 object-contain">
+                    <img src="/build/assets/svg/tableau-icon-svgrepo-com.svg" class="w-25 h-25 object-contain">
                 </div>
             </div>
             <div class="flex-col border items-center w-140 h-90 bg-gray-800 border-5 border-emerald-500 rounded-3xl shadow-xl shadow-emerald-500/50">
@@ -54,8 +54,16 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="border border-3 border-red-700 w-300 h-110 px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
-                
+            <div class="border border-3 border-red-700 max-w-7xl w-full h-auto px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
+                <div class="flex flex-col">
+                    <div class="flex flex-row gap-10">
+                        <img src="/build/assets/img/shoushin logo.png" class="w-23 h-25">
+                        <div class="flex flex-col">
+                            <h1 class="text-white text-3xl">Seketaris 2</h1>
+                            <h1 class="text-white text-3xl">I was doing stuff</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -68,7 +76,7 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="border border-3 border-blue-700 w-300 h-110 px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
+            <div class="border border-3 border-blue-700 max-w-7xl w-full h-auto px-25 py-18 bg-gray-800 rounded-2xl shadow-lg">
                 
             </div>
         </div>
